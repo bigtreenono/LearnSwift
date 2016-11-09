@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0, animations: {
             label.center = CGPoint(x: 200, y: 200)
         })
+        
+        // test
     }
 }
 
