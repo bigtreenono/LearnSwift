@@ -13,6 +13,9 @@
 		1F0825911DDD3157008059CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0825901DDD3157008059CC /* Assets.xcassets */; };
 		1F0825941DDD3157008059CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0825921DDD3157008059CC /* LaunchScreen.storyboard */; };
 		1F08259C1DDD32B6008059CC /* MomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08259B1DDD32B6008059CC /* MomentCell.swift */; };
+		1F08259E1DDE8154008059CC /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08259D1DDE8154008059CC /* MenuTableViewController.swift */; };
+		1F0825A01DDE8299008059CC /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08259F1DDE8299008059CC /* MenuTableViewCell.swift */; };
+		1F0825A41DDF2C10008059CC /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0825A31DDF2C10008059CC /* MenuTransitionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1F0825931DDD3157008059CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F0825951DDD3157008059CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F08259B1DDD32B6008059CC /* MomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCell.swift; sourceTree = "<group>"; };
+		1F08259D1DDE8154008059CC /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		1F08259F1DDE8299008059CC /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		1F0825A31DDF2C10008059CC /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTransitionManager.swift; path = ../MenuTransitionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				1F0825891DDD3157008059CC /* AppDelegate.swift */,
 				1F08258B1DDD3157008059CC /* ViewController.swift */,
+				1F0825A31DDF2C10008059CC /* MenuTransitionManager.swift */,
+				1F08259D1DDE8154008059CC /* MenuTableViewController.swift */,
+				1F08259F1DDE8299008059CC /* MenuTableViewCell.swift */,
 				1F08259B1DDD32B6008059CC /* MomentCell.swift */,
 				1F08258D1DDD3157008059CC /* Main.storyboard */,
 				1F0825901DDD3157008059CC /* Assets.xcassets */,
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F08259E1DDE8154008059CC /* MenuTableViewController.swift in Sources */,
+				1F0825A41DDF2C10008059CC /* MenuTransitionManager.swift in Sources */,
 				1F08258C1DDD3157008059CC /* ViewController.swift in Sources */,
 				1F08259C1DDD32B6008059CC /* MomentCell.swift in Sources */,
 				1F08258A1DDD3157008059CC /* AppDelegate.swift in Sources */,
+				1F0825A01DDE8299008059CC /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
