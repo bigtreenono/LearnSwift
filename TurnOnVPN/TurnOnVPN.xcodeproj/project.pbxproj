@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1F21F0401DEEF1A300DBF099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21F03F1DEEF1A300DBF099 /* AppDelegate.swift */; };
-		1F21F0421DEEF1A300DBF099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21F0411DEEF1A300DBF099 /* ViewController.swift */; };
 		1F21F0451DEEF1A300DBF099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F21F0431DEEF1A300DBF099 /* Main.storyboard */; };
 		1F21F0471DEEF1A300DBF099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F21F0461DEEF1A300DBF099 /* Assets.xcassets */; };
 		1F21F04A1DEEF1A300DBF099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F21F0481DEEF1A300DBF099 /* LaunchScreen.storyboard */; };
-		1F21F0521DEF04BB00DBF099 /* VPNListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21F0511DEF04BB00DBF099 /* VPNListController.swift */; };
+		1F6925F81DF12212000B2360 /* VPNListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6925F71DF12212000B2360 /* VPNListController.swift */; };
+		1F6925FB1DF12292000B2360 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6925FA1DF12292000B2360 /* Theme.swift */; };
+		1F6925FD1DF12334000B2360 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6925FC1DF12334000B2360 /* ThemeManager.swift */; };
+		1F6925FF1DF12395000B2360 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6925FE1DF12395000B2360 /* DarkTheme.swift */; };
+		1F6926011DF123A6000B2360 /* DarkPurpleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6926001DF123A6000B2360 /* DarkPurpleTheme.swift */; };
+		1F6926031DF123AF000B2360 /* DarkGreenTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6926021DF123AF000B2360 /* DarkGreenTheme.swift */; };
+		1F6926051DF123B7000B2360 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6926041DF123B7000B2360 /* LightTheme.swift */; };
+		1F6926071DF13826000B2360 /* HelloKittyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6926061DF13826000B2360 /* HelloKittyTheme.swift */; };
+		1F6926091DF152A6000B2360 /* ControllerBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6926081DF152A6000B2360 /* ControllerBackgroundView.swift */; };
+		1F69260B1DF1551C000B2360 /* TableViewCellTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69260A1DF1551C000B2360 /* TableViewCellTitle.swift */; };
+		1F6926121DF1909E000B2360 /* VPNListController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6926111DF1909E000B2360 /* VPNListController+TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F21F03C1DEEF1A300DBF099 /* TurnOnVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnOnVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F21F03F1DEEF1A300DBF099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F21F0411DEEF1A300DBF099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F21F0441DEEF1A300DBF099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F21F0461DEEF1A300DBF099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F21F0491DEEF1A300DBF099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F21F04B1DEEF1A300DBF099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F21F0511DEF04BB00DBF099 /* VPNListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPNListController.swift; path = ../VPNListController.swift; sourceTree = "<group>"; };
+		1F6925F71DF12212000B2360 /* VPNListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPNListController.swift; sourceTree = "<group>"; };
+		1F6925FA1DF12292000B2360 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1F6925FC1DF12334000B2360 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		1F6925FE1DF12395000B2360 /* DarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		1F6926001DF123A6000B2360 /* DarkPurpleTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkPurpleTheme.swift; sourceTree = "<group>"; };
+		1F6926021DF123AF000B2360 /* DarkGreenTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkGreenTheme.swift; sourceTree = "<group>"; };
+		1F6926041DF123B7000B2360 /* LightTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		1F6926061DF13826000B2360 /* HelloKittyTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloKittyTheme.swift; sourceTree = "<group>"; };
+		1F6926081DF152A6000B2360 /* ControllerBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerBackgroundView.swift; sourceTree = "<group>"; };
+		1F69260A1DF1551C000B2360 /* TableViewCellTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellTitle.swift; sourceTree = "<group>"; };
+		1F6926111DF1909E000B2360 /* VPNListController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VPNListController+TableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,32 @@
 		1F21F03E1DEEF1A300DBF099 /* TurnOnVPN */ = {
 			isa = PBXGroup;
 			children = (
+				1F6925F91DF12236000B2360 /* Theme */,
 				1F21F03F1DEEF1A300DBF099 /* AppDelegate.swift */,
-				1F21F0411DEEF1A300DBF099 /* ViewController.swift */,
-				1F21F0511DEF04BB00DBF099 /* VPNListController.swift */,
+				1F6925F71DF12212000B2360 /* VPNListController.swift */,
+				1F6926111DF1909E000B2360 /* VPNListController+TableView.swift */,
 				1F21F0431DEEF1A300DBF099 /* Main.storyboard */,
 				1F21F0461DEEF1A300DBF099 /* Assets.xcassets */,
 				1F21F0481DEEF1A300DBF099 /* LaunchScreen.storyboard */,
 				1F21F04B1DEEF1A300DBF099 /* Info.plist */,
 			);
 			path = TurnOnVPN;
+			sourceTree = "<group>";
+		};
+		1F6925F91DF12236000B2360 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1F6925FC1DF12334000B2360 /* ThemeManager.swift */,
+				1F6925FA1DF12292000B2360 /* Theme.swift */,
+				1F69260A1DF1551C000B2360 /* TableViewCellTitle.swift */,
+				1F6926081DF152A6000B2360 /* ControllerBackgroundView.swift */,
+				1F6925FE1DF12395000B2360 /* DarkTheme.swift */,
+				1F6926001DF123A6000B2360 /* DarkPurpleTheme.swift */,
+				1F6926021DF123AF000B2360 /* DarkGreenTheme.swift */,
+				1F6926041DF123B7000B2360 /* LightTheme.swift */,
+				1F6926061DF13826000B2360 /* HelloKittyTheme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +135,7 @@
 					1F21F03B1DEEF1A300DBF099 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = Z2K494VF76;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,8 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F21F0421DEEF1A300DBF099 /* ViewController.swift in Sources */,
-				1F21F0521DEF04BB00DBF099 /* VPNListController.swift in Sources */,
+				1F6925FF1DF12395000B2360 /* DarkTheme.swift in Sources */,
+				1F6925FB1DF12292000B2360 /* Theme.swift in Sources */,
+				1F6926121DF1909E000B2360 /* VPNListController+TableView.swift in Sources */,
+				1F6926091DF152A6000B2360 /* ControllerBackgroundView.swift in Sources */,
+				1F69260B1DF1551C000B2360 /* TableViewCellTitle.swift in Sources */,
+				1F6925FD1DF12334000B2360 /* ThemeManager.swift in Sources */,
+				1F6926051DF123B7000B2360 /* LightTheme.swift in Sources */,
+				1F6926011DF123A6000B2360 /* DarkPurpleTheme.swift in Sources */,
+				1F6926071DF13826000B2360 /* HelloKittyTheme.swift in Sources */,
+				1F6926031DF123AF000B2360 /* DarkGreenTheme.swift in Sources */,
+				1F6925F81DF12212000B2360 /* VPNListController.swift in Sources */,
 				1F21F0401DEEF1A300DBF099 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,13 +308,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z2K494VF76;
 				INFOPLIST_FILE = TurnOnVPN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jince.TurnOnVPN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -277,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z2K494VF76;
 				INFOPLIST_FILE = TurnOnVPN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -284,6 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jince.TurnOnVPN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -306,6 +356,7 @@
 				1F21F0501DEEF1A300DBF099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
