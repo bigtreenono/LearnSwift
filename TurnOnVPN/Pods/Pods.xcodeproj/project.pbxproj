@@ -1,0 +1,1128 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004A0EA44019EF40F551D0C12FF135A3 = {
+			isa = PBXBuildFile;
+			fileRef = 375B98323A760412EAE705A73F563CE4;
+		};
+		0D1F9F7BBF65C8958FBFE87BDD20CBE3 = {
+			isa = PBXBuildFile;
+			fileRef = 1926FABA145BDF8F7ECB916D2E7AF8F5;
+		};
+		126F8B0F7FA04CCBF28477BDE256AFE0 = {
+			isa = PBXBuildFile;
+			fileRef = DBA71E627ED70BC6345E8A4AD6FAFBD1;
+		};
+		1BCF50102EFC495A038A31869472F234 = {
+			isa = PBXBuildFile;
+			fileRef = 453D05B941AF71A11DE1C2A76649BAF3;
+		};
+		28F21B25C0E73DA03527B69201997530 = {
+			isa = PBXBuildFile;
+			fileRef = CBB3DE36805AF21409EC968A9691732F;
+		};
+		29C97C9EDAB6F372EBD1D0DA7D4127B4 = {
+			isa = PBXBuildFile;
+			fileRef = A57CB21A1CFF5CCFA064AE811596025C;
+		};
+		4C0DEA638E202C46D8A06246B1833071 = {
+			isa = PBXBuildFile;
+			fileRef = 985C1F57F5D7264FCC7891364F82BF82;
+		};
+		4D2D8D6A44AE6183BAFC5CAEEB0BC230 = {
+			isa = PBXBuildFile;
+			fileRef = C4B410B25DDBCC5311FDDA42655EF8DA;
+		};
+		4EB77C150B7782300AA1B84EB915194C = {
+			isa = PBXBuildFile;
+			fileRef = B8E55F0280CEB12A0193E77AC4D6B463;
+		};
+		5CE189F11877771400628DC38B06B669 = {
+			isa = PBXBuildFile;
+			fileRef = 9767A96D64AF161E73F4C4E098178DC2;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		78C64C08C477C5BFF7EC34F88C682B4D = {
+			isa = PBXBuildFile;
+			fileRef = 832052F977EA400DD34531BB48A08E52;
+		};
+		7FC366ECD56607E19D4051EE3C5F810A = {
+			isa = PBXBuildFile;
+			fileRef = CB6D4C2BE6124F72BB13E7F3905772CB;
+		};
+		8DA68868824B6A49B8DEBD9E11759943 = {
+			isa = PBXBuildFile;
+			fileRef = 6A9939720992B5FEC932D70E0EE5B62E;
+		};
+		9524C7621668AC549FF896D74F0B8E13 = {
+			isa = PBXBuildFile;
+			fileRef = 5E3035CC48CB2B4E1C03DC4D658BCFB8;
+		};
+		965E4B75F5C9B2CB74CFFEF42CD02936 = {
+			isa = PBXBuildFile;
+			fileRef = A689086BA8E3E94F22EC8BA5475ED669;
+		};
+		A151CABDC649CC4CC38491EA229C3110 = {
+			isa = PBXBuildFile;
+			fileRef = EB0C7786FD957BA48F2D5CFE887F1C5E;
+		};
+		A38B094F6037DDA7C1D605C3161EB623 = {
+			isa = PBXBuildFile;
+			fileRef = C75FD78F72E2348826A4418C2D8B3472;
+		};
+		A96CF01477281DD75A34E4FA96A3B555 = {
+			isa = PBXBuildFile;
+			fileRef = BBF062CB4279BBB8448382DC0CCBA49D;
+		};
+		AC4B8C2866F1C2E9EAD07C69A07F1947 = {
+			isa = PBXBuildFile;
+			fileRef = 1AD6B19E0AC26E26C2B335E2A99903F5;
+		};
+		B5EFDD25E506102A400D4B2A6446906E = {
+			isa = PBXBuildFile;
+			fileRef = 79B25475DA681CC7BAA6A83F39C35E9D;
+		};
+		B66513EFA4EB344DDC8082EC6A41AAC8 = {
+			isa = PBXBuildFile;
+			fileRef = 52F9F870D2C4F0A85C6EF0D54C8F3B1D;
+		};
+		B6C4DA52AB01D41A68B18A96577F7DC7 = {
+			isa = PBXBuildFile;
+			fileRef = C05DB1D2D3189D70277A23A001F7C88F;
+		};
+		B8BA05CF01E5B31A8CF7987F0500C503 = {
+			isa = PBXBuildFile;
+			fileRef = 3E7DA6B9547340A0235DC74A1F560583;
+		};
+		BC49EA7496D626640DC042A6C225D21D = {
+			isa = PBXBuildFile;
+			fileRef = EC58176CF405F6CE69CD194633D4529A;
+		};
+		C5A6C0F869BE5A47232F29DCBB5F9322 = {
+			isa = PBXBuildFile;
+			fileRef = 18978EBBD126026E2CF844527A7D7632;
+		};
+		CC9AF0EE8A7B9E513B48E7978633FF8D = {
+			isa = PBXBuildFile;
+			fileRef = CBB3DE36805AF21409EC968A9691732F;
+		};
+		CFBF1ECEA539DDD42236DBD28F3541A2 = {
+			isa = PBXBuildFile;
+			fileRef = DDD04C456239B2E4D78B5C2D1480212F;
+		};
+		D1B93F7A5B949E252D39CF8E29D8056E = {
+			isa = PBXBuildFile;
+			fileRef = ACA584FB961718D5CD56DBB23478EC8C;
+		};
+		DA1D2FE265FAA279DCB498CEB2179B63 = {
+			isa = PBXBuildFile;
+			fileRef = D8FB6FDE4504CE1A193FA8DD854E217E;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		DDDE0031B4554572E7E07B1DD82C6495 = {
+			isa = PBXBuildFile;
+			fileRef = 68E729CB38BFB9A07A8B7C8F459CB06D;
+		};
+		DE1BB06AEF3277EE892F56A6D06D2833 = {
+			isa = PBXBuildFile;
+			fileRef = 4A7BED9A9142D3973C874C84C008C35D;
+		};
+		E1DF58AD79F1AB45EE0A9B6ADBBF5A20 = {
+			isa = PBXBuildFile;
+			fileRef = ED4B2EAFD35FA4048ECCE12A15A44DBD;
+		};
+		E783C326E865626C5FCF4E972C732AA2 = {
+			isa = PBXBuildFile;
+			fileRef = D4FBAB7D31E54D4511D95828D75D5D2B;
+		};
+		EF598C0F1CCF15342AC40D91F057B2E0 = {
+			isa = PBXBuildFile;
+			fileRef = F2DF8D544B3364D365DB6819934615F8;
+		};
+		F60DE6C4A933BA5B9BA39A675AD10B3B = {
+			isa = PBXBuildFile;
+			fileRef = 899F355CB49884B8A8E243EABC5B54CD;
+		};
+		FA9DA7DC5B9761701CB5C232894B4390 = {
+			isa = PBXBuildFile;
+			fileRef = 8F0913537AF8A3C2A60D1142C01571B3;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DCCBF86B4C72D041E5C64E3BA31E063 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = E775A5CD72093798DBE687CE248D54E6;
+			remoteInfo = R.swift.Library;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06BA49CE42E9BAAB81E09E3AAE3174D8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Pods-TurnOnVPN.modulemap";
+			sourceTree = "<group>";
+		};
+		0A117B0761C860B6A274C2C9915F06BA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-TurnOnVPN.release.xcconfig";
+			sourceTree = "<group>";
+		};
+		0DBC284A47EC4F7D2A7C4DA847FEEB4B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		18978EBBD126026E2CF844527A7D7632 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UIStoryboard+StoryboardResource.swift";
+			path = "Library/UIKit/UIStoryboard+StoryboardResource.swift";
+			sourceTree = "<group>";
+		};
+		1926FABA145BDF8F7ECB916D2E7AF8F5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Identifier.swift;
+			path = Library/Core/Identifier.swift;
+			sourceTree = "<group>";
+		};
+		1AD6B19E0AC26E26C2B335E2A99903F5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift";
+			path = "Library/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift";
+			sourceTree = "<group>";
+		};
+		2D26621DBE84C71C62B1196CA56AEE84 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = R.swift.Library.xcconfig;
+			sourceTree = "<group>";
+		};
+		375B98323A760412EAE705A73F563CE4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UIViewController+NibResource.swift";
+			path = "Library/UIKit/UIViewController+NibResource.swift";
+			sourceTree = "<group>";
+		};
+		3E7DA6B9547340A0235DC74A1F560583 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = NibResource.swift;
+			path = Library/Core/NibResource.swift;
+			sourceTree = "<group>";
+		};
+		453D05B941AF71A11DE1C2A76649BAF3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UINib+NibResource.swift";
+			path = "Library/UIKit/UINib+NibResource.swift";
+			sourceTree = "<group>";
+		};
+		4A7BED9A9142D3973C874C84C008C35D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "NibResource+UIKit.swift";
+			path = "Library/UIKit/NibResource+UIKit.swift";
+			sourceTree = "<group>";
+		};
+		52F9F870D2C4F0A85C6EF0D54C8F3B1D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = ColorResource.swift;
+			path = Library/Core/ColorResource.swift;
+			sourceTree = "<group>";
+		};
+		57E706B77A519071C6E6D33255D70643 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		58A24A823D2E3AC7C696E3F84AE1EC36 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = R.swift.Library.modulemap;
+			sourceTree = "<group>";
+		};
+		5E3035CC48CB2B4E1C03DC4D658BCFB8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "Foundation+Migration.swift";
+			path = "Library/Foundation/Foundation+Migration.swift";
+			sourceTree = "<group>";
+		};
+		68E729CB38BFB9A07A8B7C8F459CB06D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "Bundle+FileResource.swift";
+			path = "Library/Foundation/Bundle+FileResource.swift";
+			sourceTree = "<group>";
+		};
+		6A9939720992B5FEC932D70E0EE5B62E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "ColorResource+UIKit.swift";
+			path = "Library/UIKit/ColorResource+UIKit.swift";
+			sourceTree = "<group>";
+		};
+		79B25475DA681CC7BAA6A83F39C35E9D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UICollectionView+ReuseIdentifierProtocol.swift";
+			path = "Library/UIKit/UICollectionView+ReuseIdentifierProtocol.swift";
+			sourceTree = "<group>";
+		};
+		832052F977EA400DD34531BB48A08E52 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Validatable.swift;
+			path = Library/Core/Validatable.swift;
+			sourceTree = "<group>";
+		};
+		8645A9967EBCF7C96211763B1775CB8E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-TurnOnVPN-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		867C5C9C3BD8DE12A985E5D63E6FF5AA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-TurnOnVPN-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		899F355CB49884B8A8E243EABC5B54CD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-TurnOnVPN-dummy.m";
+			sourceTree = "<group>";
+		};
+		8F0913537AF8A3C2A60D1142C01571B3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = StoryboardSegueIdentifierProtocol.swift;
+			path = Library/Core/StoryboardSegueIdentifierProtocol.swift;
+			sourceTree = "<group>";
+		};
+		925EF0B8A5469EA27E4F4EEC903396AE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-TurnOnVPN-resources.sh";
+			sourceTree = "<group>";
+		};
+		92CD6508D9BF3AB5FA5755814BC49B89 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_TurnOnVPN.framework;
+			path = "Pods-TurnOnVPN.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9344BC470248639F5FDC6DE8D49C714A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-TurnOnVPN.debug.xcconfig";
+			sourceTree = "<group>";
+		};
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 = {
+			isa = PBXFileReference;
+			explicitFileType = text.script.ruby;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			name = Podfile;
+			path = ../Podfile;
+			sourceTree = SOURCE_ROOT;
+			xcLanguageSpecificationIdentifier = xcode.lang.ruby;
+		};
+		9767A96D64AF161E73F4C4E098178DC2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "R.swift.Library-umbrella.h";
+			sourceTree = "<group>";
+		};
+		985C1F57F5D7264FCC7891364F82BF82 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UIViewController+StoryboardSegueIdentifierProtocol.swift";
+			path = "Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift";
+			sourceTree = "<group>";
+		};
+		99058EDA3231D3CB23E0918C59F57A08 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Rswift.framework;
+			path = R.swift.Library.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A57CB21A1CFF5CCFA064AE811596025C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = StoryboardResource.swift;
+			path = Library/Core/StoryboardResource.swift;
+			sourceTree = "<group>";
+		};
+		A689086BA8E3E94F22EC8BA5475ED669 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UIImage+ImageResource.swift";
+			path = "Library/UIKit/UIImage+ImageResource.swift";
+			sourceTree = "<group>";
+		};
+		ACA584FB961718D5CD56DBB23478EC8C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "StoryboardResourceWithInitialController+UIKit.swift";
+			path = "Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift";
+			sourceTree = "<group>";
+		};
+		B8E55F0280CEB12A0193E77AC4D6B463 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = StringResource.swift;
+			path = Library/Core/StringResource.swift;
+			sourceTree = "<group>";
+		};
+		BBF062CB4279BBB8448382DC0CCBA49D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "Core+Migration.swift";
+			path = "Library/Core/Core+Migration.swift";
+			sourceTree = "<group>";
+		};
+		C05DB1D2D3189D70277A23A001F7C88F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "Data+FileResource.swift";
+			path = "Library/Foundation/Data+FileResource.swift";
+			sourceTree = "<group>";
+		};
+		C4B410B25DDBCC5311FDDA42655EF8DA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UIFont+FontResource.swift";
+			path = "Library/UIKit/UIFont+FontResource.swift";
+			sourceTree = "<group>";
+		};
+		C75FD78F72E2348826A4418C2D8B3472 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = FontResource.swift;
+			path = Library/Core/FontResource.swift;
+			sourceTree = "<group>";
+		};
+		C78A854B36D4A20BC8502DD8DD2960BC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-TurnOnVPN-frameworks.sh";
+			sourceTree = "<group>";
+		};
+		CB6D4C2BE6124F72BB13E7F3905772CB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = StoryboardViewControllerResource.swift;
+			path = Library/Core/StoryboardViewControllerResource.swift;
+			sourceTree = "<group>";
+		};
+		CBB3DE36805AF21409EC968A9691732F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		D4FBAB7D31E54D4511D95828D75D5D2B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = ReuseIdentifierProtocol.swift;
+			path = Library/Core/ReuseIdentifierProtocol.swift;
+			sourceTree = "<group>";
+		};
+		D8FB6FDE4504CE1A193FA8DD854E217E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-TurnOnVPN-umbrella.h";
+			sourceTree = "<group>";
+		};
+		DBA71E627ED70BC6345E8A4AD6FAFBD1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UITableView+ReuseIdentifierProtocol.swift";
+			path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift";
+			sourceTree = "<group>";
+		};
+		DDD04C456239B2E4D78B5C2D1480212F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "R.swift.Library-dummy.m";
+			sourceTree = "<group>";
+		};
+		E9AD10AFF461F50AD65AF21EC6640F57 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "R.swift.Library-prefix.pch";
+			sourceTree = "<group>";
+		};
+		EB0C7786FD957BA48F2D5CFE887F1C5E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = FileResource.swift;
+			path = Library/Core/FileResource.swift;
+			sourceTree = "<group>";
+		};
+		EC58176CF405F6CE69CD194633D4529A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = ImageResource.swift;
+			path = Library/Core/ImageResource.swift;
+			sourceTree = "<group>";
+		};
+		ED4B2EAFD35FA4048ECCE12A15A44DBD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UIKit+Migration.swift";
+			path = "Library/UIKit/UIKit+Migration.swift";
+			sourceTree = "<group>";
+		};
+		F2DF8D544B3364D365DB6819934615F8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "UIStoryboard+StoryboardViewControllerResource.swift";
+			path = "Library/UIKit/UIStoryboard+StoryboardViewControllerResource.swift";
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617D3B37D23F0F03CA7D01B2200356C2 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9AF0EE8A7B9E513B48E7978633FF8D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9464E3711A5105A8092700A4FA92D2E1 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F21B25C0E73DA03527B69201997530,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323F3AD285DABC46FD6E097656804EB2 = {
+			isa = PBXGroup;
+			children = (
+				0DBC284A47EC4F7D2A7C4DA847FEEB4B,
+				58A24A823D2E3AC7C696E3F84AE1EC36,
+				2D26621DBE84C71C62B1196CA56AEE84,
+				DDD04C456239B2E4D78B5C2D1480212F,
+				E9AD10AFF461F50AD65AF21EC6640F57,
+				9767A96D64AF161E73F4C4E098178DC2,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift.Library";
+			sourceTree = "<group>";
+		};
+		46FD4B3F19339026C65BF26AAAF5F0D2 = {
+			isa = PBXGroup;
+			children = (
+				A2C8E14EFF878E6ADB1231E580B4D44D,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC,
+				9AF9A2AE8C742F002645CCD93D5128F3,
+				FF15F0440CB26F4BF728333B01A8AA85,
+				46FD4B3F19339026C65BF26AAAF5F0D2,
+			);
+			sourceTree = "<group>";
+		};
+		97998F99CB936A91179BCDF8406214E4 = {
+			isa = PBXGroup;
+			children = (
+				68E729CB38BFB9A07A8B7C8F459CB06D,
+				52F9F870D2C4F0A85C6EF0D54C8F3B1D,
+				6A9939720992B5FEC932D70E0EE5B62E,
+				BBF062CB4279BBB8448382DC0CCBA49D,
+				C05DB1D2D3189D70277A23A001F7C88F,
+				EB0C7786FD957BA48F2D5CFE887F1C5E,
+				C75FD78F72E2348826A4418C2D8B3472,
+				5E3035CC48CB2B4E1C03DC4D658BCFB8,
+				1926FABA145BDF8F7ECB916D2E7AF8F5,
+				EC58176CF405F6CE69CD194633D4529A,
+				3E7DA6B9547340A0235DC74A1F560583,
+				4A7BED9A9142D3973C874C84C008C35D,
+				D4FBAB7D31E54D4511D95828D75D5D2B,
+				A57CB21A1CFF5CCFA064AE811596025C,
+				ACA584FB961718D5CD56DBB23478EC8C,
+				8F0913537AF8A3C2A60D1142C01571B3,
+				CB6D4C2BE6124F72BB13E7F3905772CB,
+				B8E55F0280CEB12A0193E77AC4D6B463,
+				1AD6B19E0AC26E26C2B335E2A99903F5,
+				79B25475DA681CC7BAA6A83F39C35E9D,
+				C4B410B25DDBCC5311FDDA42655EF8DA,
+				A689086BA8E3E94F22EC8BA5475ED669,
+				ED4B2EAFD35FA4048ECCE12A15A44DBD,
+				453D05B941AF71A11DE1C2A76649BAF3,
+				18978EBBD126026E2CF844527A7D7632,
+				F2DF8D544B3364D365DB6819934615F8,
+				DBA71E627ED70BC6345E8A4AD6FAFBD1,
+				375B98323A760412EAE705A73F563CE4,
+				985C1F57F5D7264FCC7891364F82BF82,
+				832052F977EA400DD34531BB48A08E52,
+				323F3AD285DABC46FD6E097656804EB2,
+			);
+			name = R.swift.Library;
+			path = R.swift.Library;
+			sourceTree = "<group>";
+		};
+		9AF9A2AE8C742F002645CCD93D5128F3 = {
+			isa = PBXGroup;
+			children = (
+				C741B6D219B4C439D5EF822B8A508EA7,
+				97998F99CB936A91179BCDF8406214E4,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2C8E14EFF878E6ADB1231E580B4D44D = {
+			isa = PBXGroup;
+			children = (
+				57E706B77A519071C6E6D33255D70643,
+				06BA49CE42E9BAAB81E09E3AAE3174D8,
+				8645A9967EBCF7C96211763B1775CB8E,
+				867C5C9C3BD8DE12A985E5D63E6FF5AA,
+				899F355CB49884B8A8E243EABC5B54CD,
+				C78A854B36D4A20BC8502DD8DD2960BC,
+				925EF0B8A5469EA27E4F4EEC903396AE,
+				D8FB6FDE4504CE1A193FA8DD854E217E,
+				9344BC470248639F5FDC6DE8D49C714A,
+				0A117B0761C860B6A274C2C9915F06BA,
+			);
+			name = "Pods-TurnOnVPN";
+			path = "Target Support Files/Pods-TurnOnVPN";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C741B6D219B4C439D5EF822B8A508EA7 = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = R.swift;
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		FF15F0440CB26F4BF728333B01A8AA85 = {
+			isa = PBXGroup;
+			children = (
+				92CD6508D9BF3AB5FA5755814BC49B89,
+				99058EDA3231D3CB23E0918C59F57A08,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39313ACA67738524F5E22CABDA057ADA = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1D2FE265FAA279DCB498CEB2179B63,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD2071EED965561A0F211A4D6D4439 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE189F11877771400628DC38B06B669,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DEF771280D3663C416771EA335BB63B = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C19DA3F0B8081482E2693E2D81A163;
+			buildPhases = (
+				0B1B4922D84DC5DBCC224CD379AAC631,
+				9464E3711A5105A8092700A4FA92D2E1,
+				39313ACA67738524F5E22CABDA057ADA,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3A77E29B97C04D2175BED617CB4D1D,
+			);
+			name = "Pods-TurnOnVPN";
+			productName = "Pods-TurnOnVPN";
+			productReference = 92CD6508D9BF3AB5FA5755814BC49B89;
+			productType = "com.apple.product-type.framework";
+		};
+		E775A5CD72093798DBE687CE248D54E6 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C20C698515CC1DC0680D8C64D6B5862;
+			buildPhases = (
+				8BE69D1E14DA41C1A5BF187A07F5237E,
+				617D3B37D23F0F03CA7D01B2200356C2,
+				FCAD2071EED965561A0F211A4D6D4439,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift.Library;
+			productName = R.swift.Library;
+			productReference = 99058EDA3231D3CB23E0918C59F57A08;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FF15F0440CB26F4BF728333B01A8AA85;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				5DEF771280D3663C416771EA335BB63B,
+				E775A5CD72093798DBE687CE248D54E6,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B1B4922D84DC5DBCC224CD379AAC631 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60DE6C4A933BA5B9BA39A675AD10B3B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE69D1E14DA41C1A5BF187A07F5237E = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDE0031B4554572E7E07B1DD82C6495,
+				8DA68868824B6A49B8DEBD9E11759943,
+				B66513EFA4EB344DDC8082EC6A41AAC8,
+				A96CF01477281DD75A34E4FA96A3B555,
+				B6C4DA52AB01D41A68B18A96577F7DC7,
+				A151CABDC649CC4CC38491EA229C3110,
+				A38B094F6037DDA7C1D605C3161EB623,
+				9524C7621668AC549FF896D74F0B8E13,
+				0D1F9F7BBF65C8958FBFE87BDD20CBE3,
+				BC49EA7496D626640DC042A6C225D21D,
+				DE1BB06AEF3277EE892F56A6D06D2833,
+				B8BA05CF01E5B31A8CF7987F0500C503,
+				CFBF1ECEA539DDD42236DBD28F3541A2,
+				E783C326E865626C5FCF4E972C732AA2,
+				29C97C9EDAB6F372EBD1D0DA7D4127B4,
+				D1B93F7A5B949E252D39CF8E29D8056E,
+				FA9DA7DC5B9761701CB5C232894B4390,
+				7FC366ECD56607E19D4051EE3C5F810A,
+				4EB77C150B7782300AA1B84EB915194C,
+				AC4B8C2866F1C2E9EAD07C69A07F1947,
+				B5EFDD25E506102A400D4B2A6446906E,
+				4D2D8D6A44AE6183BAFC5CAEEB0BC230,
+				965E4B75F5C9B2CB74CFFEF42CD02936,
+				E1DF58AD79F1AB45EE0A9B6ADBBF5A20,
+				1BCF50102EFC495A038A31869472F234,
+				C5A6C0F869BE5A47232F29DCBB5F9322,
+				EF598C0F1CCF15342AC40D91F057B2E0,
+				126F8B0F7FA04CCBF28477BDE256AFE0,
+				004A0EA44019EF40F551D0C12FF135A3,
+				4C0DEA638E202C46D8A06246B1833071,
+				78C64C08C477C5BFF7EC34F88C682B4D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3A77E29B97C04D2175BED617CB4D1D = {
+			isa = PBXTargetDependency;
+			name = R.swift.Library;
+			target = E775A5CD72093798DBE687CE248D54E6;
+			targetProxy = 9DCCBF86B4C72D041E5C64E3BA31E063;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05791BC32E6B5B7581008B75BFA388F6 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D26621DBE84C71C62B1196CA56AEE84;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		59D1B756FAD3EC87BC8E8A7569F5F52E = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A117B0761C860B6A274C2C9915F06BA;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TurnOnVPN/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TurnOnVPN/Pods-TurnOnVPN.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TurnOnVPN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6301B0BCFE41CBB6140BDAB031944A18 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9344BC470248639F5FDC6DE8D49C714A;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TurnOnVPN/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TurnOnVPN/Pods-TurnOnVPN.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TurnOnVPN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DE85485FC938B6EB7877FAE057FFA01 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D26621DBE84C71C62B1196CA56AEE84;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C20C698515CC1DC0680D8C64D6B5862 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE85485FC938B6EB7877FAE057FFA01,
+				05791BC32E6B5B7581008B75BFA388F6,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7,
+				B7324857C38B065FEB1EEE3105C2367A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C19DA3F0B8081482E2693E2D81A163 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6301B0BCFE41CBB6140BDAB031944A18,
+				59D1B756FAD3EC87BC8E8A7569F5F52E,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E;
+}
