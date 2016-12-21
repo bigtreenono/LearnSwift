@@ -104,7 +104,7 @@ extension VPNListController {
         if section == kVPNListSection && vpns?.count > 0 {
             return "VPN CONFIGURATIONOS"
         }
-        return nil
+        return .none
     }
     
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {

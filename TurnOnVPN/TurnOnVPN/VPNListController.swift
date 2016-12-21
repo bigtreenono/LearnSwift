@@ -22,7 +22,7 @@ class VPNListController: UITableViewController {
     deinit {
         NotificationCenter.default.removeObserver(self)
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

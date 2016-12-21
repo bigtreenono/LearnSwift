@@ -614,7 +614,7 @@
         <scene sceneID="n8l-JQ-mau">
             <objects>
                 <tableViewController id="UcN-N1-eTe" customClass="VPNListController" customModule="TurnOnVPN" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Rbt-pg-EhV">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Rbt-pg-EhV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -712,6 +712,9 @@
                                         </label>
                                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WdK-iM-rLS">
                                             <rect key="frame" x="303" y="6" width="51" height="31"/>
+                                            <connections>
+                                                <action selector="didTapOnDemandSwitch:" destination="UcN-N1-eTe" eventType="valueChanged" id="eHQ-cr-HzR"/>
+                                            </connections>
                                         </switch>
                                     </subviews>
                                     <constraints>

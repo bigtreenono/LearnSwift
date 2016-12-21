@@ -35,7 +35,7 @@ public struct VPNAccount {
     public init() {}
 }
 
-typealias VPNConfigureCompletion = (Void) -> Void
+public typealias VPNConfigureCompletion = (Void) -> Void
 
 public class VPNManager {
     public static let sharedManager = VPNManager()
@@ -63,7 +63,7 @@ public class VPNManager {
         }
     }
     
-    func save(_ account: VPNAccount, completion: VPNConfigureCompletion?) {
+    public func save(_ account: VPNAccount, completion: VPNConfigureCompletion? = nil) {
         loadPreferences { [weak self] in
             self?._save(account, completion: completion)
         }
