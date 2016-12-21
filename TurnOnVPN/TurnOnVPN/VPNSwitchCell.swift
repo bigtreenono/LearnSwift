@@ -10,14 +10,14 @@ import UIKit
 
 class VPNSwitchCell: VPNTableViewCell {
     
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: TableViewCellTitle!
     @IBOutlet weak var switchButton: UISwitch!
     
     override func didMoveToSuperview() {
         super.didMoveToSuperview()
         
         if superview != nil && isRightToLeft {
-
+            titleLabel.textAlignment = .right
         }
     }
 }

@@ -21,8 +21,17 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 0 files.
+  /// This `R.file` struct is generated, and contains static references to 1 files.
   struct file {
+    /// Resource file `Acknowledgements.plist`.
+    static let acknowledgementsPlist = Rswift.FileResource(bundle: R.hostingBundle, name: "Acknowledgements", pathExtension: "plist")
+    
+    /// `bundle.url(forResource: "Acknowledgements", withExtension: "plist")`
+    static func acknowledgementsPlist(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.acknowledgementsPlist
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     fileprivate init() {}
   }
   
@@ -41,10 +50,10 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.reuseIdentifier` struct is generated, and contains static references to 6 reuse identifiers.
+  /// This `R.reuseIdentifier` struct is generated, and contains static references to 8 reuse identifiers.
   struct reuseIdentifier {
     /// Reuse identifier `AcknowledgementCell`.
-    static let acknowledgementCell: Rswift.ReuseIdentifier<UIKit.UITableViewCell> = Rswift.ReuseIdentifier(identifier: "AcknowledgementCell")
+    static let acknowledgementCell: Rswift.ReuseIdentifier<AcknowledgementCell> = Rswift.ReuseIdentifier(identifier: "AcknowledgementCell")
     /// Reuse identifier `AddCell`.
     static let addCell: Rswift.ReuseIdentifier<UIKit.UITableViewCell> = Rswift.ReuseIdentifier(identifier: "AddCell")
     /// Reuse identifier `ConnectionCell`.
@@ -55,6 +64,10 @@ struct R: Rswift.Validatable {
     static let onDemandCell: Rswift.ReuseIdentifier<VPNSwitchCell> = Rswift.ReuseIdentifier(identifier: "OnDemandCell")
     /// Reuse identifier `VPNCell`.
     static let vPNCell: Rswift.ReuseIdentifier<VPNTableViewCell> = Rswift.ReuseIdentifier(identifier: "VPNCell")
+    /// Reuse identifier `deleteButton`.
+    static let deleteButton: Rswift.ReuseIdentifier<TableViewActionCell> = Rswift.ReuseIdentifier(identifier: "deleteButton")
+    /// Reuse identifier `duplicateButton`.
+    static let duplicateButton: Rswift.ReuseIdentifier<TableViewActionCell> = Rswift.ReuseIdentifier(identifier: "duplicateButton")
     
     fileprivate init() {}
   }

@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		016AAA8ACEB0CD9288EB8782 /* Pods_TurnOnVPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EC2BCAB13300BC8D05FC93 /* Pods_TurnOnVPN.framework */; };
 		1F09CC0A1E08F9CD00AF933E /* VPNSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09CC091E08F9CD00AF933E /* VPNSwitchCell.swift */; };
+		1F09CC0C1E09088000AF933E /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09CC0B1E09088000AF933E /* About.swift */; };
+		1F09CC0E1E0914E700AF933E /* Acknowledgements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09CC0D1E0914E700AF933E /* Acknowledgements.swift */; };
+		1F09CC101E0915D300AF933E /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F09CC0F1E0915D300AF933E /* Acknowledgements.plist */; };
+		1F09CC121E0A4D8E00AF933E /* AcknowledgementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09CC111E0A4D8E00AF933E /* AcknowledgementCell.swift */; };
+		1F09CC141E0A579F00AF933E /* TableViewActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09CC131E0A579F00AF933E /* TableViewActionCell.swift */; };
+		1F09CC161E0A590200AF933E /* VPNEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09CC151E0A590200AF933E /* VPNEditor.swift */; };
 		1F21F0401DEEF1A300DBF099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21F03F1DEEF1A300DBF099 /* AppDelegate.swift */; };
 		1F21F0451DEEF1A300DBF099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F21F0431DEEF1A300DBF099 /* Main.storyboard */; };
 		1F21F0471DEEF1A300DBF099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F21F0461DEEF1A300DBF099 /* Assets.xcassets */; };
@@ -84,6 +90,12 @@
 
 /* Begin PBXFileReference section */
 		1F09CC091E08F9CD00AF933E /* VPNSwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPNSwitchCell.swift; sourceTree = "<group>"; };
+		1F09CC0B1E09088000AF933E /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		1F09CC0D1E0914E700AF933E /* Acknowledgements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acknowledgements.swift; sourceTree = "<group>"; };
+		1F09CC0F1E0915D300AF933E /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Acknowledgements.plist; sourceTree = "<group>"; };
+		1F09CC111E0A4D8E00AF933E /* AcknowledgementCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementCell.swift; sourceTree = "<group>"; };
+		1F09CC131E0A579F00AF933E /* TableViewActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewActionCell.swift; sourceTree = "<group>"; };
+		1F09CC151E0A590200AF933E /* VPNEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPNEditor.swift; sourceTree = "<group>"; };
 		1F21F03C1DEEF1A300DBF099 /* TurnOnVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnOnVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F21F03F1DEEF1A300DBF099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F21F0441DEEF1A300DBF099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -186,16 +198,22 @@
 				1F49F89B1E05387600F6E313 /* VPNOnData */,
 				1F6925F91DF12236000B2360 /* Theme */,
 				1F21F03F1DEEF1A300DBF099 /* AppDelegate.swift */,
+				1F09CC0B1E09088000AF933E /* About.swift */,
+				1F09CC0D1E0914E700AF933E /* Acknowledgements.swift */,
+				1F09CC111E0A4D8E00AF933E /* AcknowledgementCell.swift */,
 				1F75D5151DF42433004FA6EC /* R.generated.swift */,
+				1F09CC151E0A590200AF933E /* VPNEditor.swift */,
 				1F6925F71DF12212000B2360 /* VPNListController.swift */,
 				1F6926111DF1909E000B2360 /* VPNListController+TableView.swift */,
 				1F49F8B81E056EEA00F6E313 /* NormalTableViewCell.swift */,
 				1F49F8BA1E056F7D00F6E313 /* VPNTableViewCell.swift */,
 				1F09CC091E08F9CD00AF933E /* VPNSwitchCell.swift */,
+				1F09CC131E0A579F00AF933E /* TableViewActionCell.swift */,
 				1F49F8B41E05680200F6E313 /* UIView+RightToLeft.swift */,
 				1F21F0431DEEF1A300DBF099 /* Main.storyboard */,
 				1F21F0461DEEF1A300DBF099 /* Assets.xcassets */,
 				1F21F0481DEEF1A300DBF099 /* LaunchScreen.storyboard */,
+				1F09CC0F1E0915D300AF933E /* Acknowledgements.plist */,
 				1F21F04B1DEEF1A300DBF099 /* Info.plist */,
 			);
 			path = TurnOnVPN;
@@ -372,6 +390,7 @@
 				1F21F04A1DEEF1A300DBF099 /* LaunchScreen.storyboard in Resources */,
 				1F21F0471DEEF1A300DBF099 /* Assets.xcassets in Resources */,
 				1F21F0451DEEF1A300DBF099 /* Main.storyboard in Resources */,
+				1F09CC101E0915D300AF933E /* Acknowledgements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,9 +469,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F09CC0E1E0914E700AF933E /* Acknowledgements.swift in Sources */,
 				1F6925FF1DF12395000B2360 /* DarkTheme.swift in Sources */,
 				1F49F8B51E05680200F6E313 /* UIView+RightToLeft.swift in Sources */,
 				1F6925FB1DF12292000B2360 /* Theme.swift in Sources */,
+				1F09CC121E0A4D8E00AF933E /* AcknowledgementCell.swift in Sources */,
 				1F49F8AA1E05387600F6E313 /* VPN+Account.swift in Sources */,
 				1F6926121DF1909E000B2360 /* VPNListController+TableView.swift in Sources */,
 				1F49F8AB1E05387600F6E313 /* VPN+URLScheme.swift in Sources */,
@@ -466,8 +487,11 @@
 				1F75D5161DF42433004FA6EC /* R.generated.swift in Sources */,
 				1F49F8B01E05387600F6E313 /* VPNDataManager.swift in Sources */,
 				1F6926051DF123B7000B2360 /* LightTheme.swift in Sources */,
+				1F09CC0C1E09088000AF933E /* About.swift in Sources */,
 				1F6926011DF123A6000B2360 /* DarkPurpleTheme.swift in Sources */,
 				1F49F8B91E056EEA00F6E313 /* NormalTableViewCell.swift in Sources */,
+				1F09CC141E0A579F00AF933E /* TableViewActionCell.swift in Sources */,
+				1F09CC161E0A590200AF933E /* VPNEditor.swift in Sources */,
 				1F49F8B11E05387600F6E313 /* VPNOn.xcdatamodeld in Sources */,
 				1F6926071DF13826000B2360 /* HelloKittyTheme.swift in Sources */,
 				1F49F8B71E056C8700F6E313 /* TableViewCellDeclosureIndicator.swift in Sources */,

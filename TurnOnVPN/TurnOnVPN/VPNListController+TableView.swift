@@ -74,7 +74,7 @@ extension VPNListController {
         case kVPNListSection:
             let cell = tableView.dequeueReusableCell(withIdentifier: "VPNCell", for: indexPath) as! VPNTableViewCell
             guard let vpn = vpns?[indexPath.row] else { return cell }
-            
+//            cell.textLabel?.attributedText =
             return cell
             
         default:
@@ -107,12 +107,25 @@ extension VPNListController {
         return nil
     }
     
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        if section == kVPNListSection {
+            return 20
+        }
+        return 0
+    }
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == kVPNListSection {
             return 60
         }
         return 44
     }
+    
+//    func cellTitleForIndexPath(_ indexPath: IndexPath) -> NSAttributedString {
+//        guard let vpn = vpns?[indexPath.row] else { return NSAttributedString(string: "") }
+//        
+//        let latency = 
+//    }
 }
 
 

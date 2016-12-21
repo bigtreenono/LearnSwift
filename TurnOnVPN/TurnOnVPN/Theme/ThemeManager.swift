@@ -62,8 +62,11 @@ class ThemeManager {
         UITextField.appearance().tintColor = theme.tintColor
         UITextField.appearance().textColor = theme.textFieldColor
 
-        UILabel.inside(UITableViewHeaderFooterView.self).textColor = theme.textColor;
-        
+        UILabel.inside(UITableViewHeaderFooterView.self).textColor = theme.textColor
+        UILabel.inside(NormalTableViewCell.self).textColor = theme.textColor
+        UILabel.inside(VPNTableViewCell.self).textColor = theme.textColor
+        UILabel.inside(AcknowledgementCell.self).textColor = theme.textColor
+//        UILabel.inside(ack.self).textColor = theme.textColor
         
         UITextView.inside(UITableViewCell.self).backgroundColor = theme.tableViewCellColor
         UITextView.inside(UITableViewCell.self).textColor = theme.textColor
@@ -73,7 +76,7 @@ class ThemeManager {
         var index = themeIndex
         index += 1
         
-        themeIndex = index >= themes.count ? 0 : index;
+        themeIndex = index >= themes.count ? 0 : index
         
         activateTheme(themes[themeIndex])
         
