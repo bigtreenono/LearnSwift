@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.2.0)
+  - BFKit-Swift (2.0.2)
+  - R.swift (3.2.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - BFKit-Swift
+  - R.swift
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  BFKit-Swift: 788e0d6719ba3bc17944d85384b9a11537641609
+  R.swift: 207a372a2b5977caef440c696a368009460641d1
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: d42a9a95bacae2bbaea228d2a400b4e7072d1b4a
+
+COCOAPODS: 1.2.0.beta.1
