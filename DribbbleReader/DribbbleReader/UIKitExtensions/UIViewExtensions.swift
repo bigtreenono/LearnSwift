@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 extension UIView {
+    
     func rotateMe() {
         UIView.animate {
             self.transform = self.transform.rotated(by: CGFloat(M_PI))
@@ -29,7 +30,7 @@ extension UIView {
     }
     
     class func animate(_ animations: @escaping () -> Void) {
-        UIView.animate(withDuration: animationDuration, animations: animations)
+        animate(animations, completion: nil)
     }
     
     class func animate(_ animations: @escaping () -> Void, completion: ((Bool) -> Swift.Void)? = nil) {
@@ -42,6 +43,10 @@ extension UIView {
         UIView.animate(withDuration: notify.userInfo![UIKeyboardAnimationDurationUserInfoKey] as! Double, delay: 0, options: UIViewAnimationOptions(rawValue: options), animations: animations)
     }
     
+    class func nib() -> UINib {
+        return UINib(nibName: self.reuseIdentifier(), bundle: nil)
+    }
+    
     class func nibView() -> UIView {
         return self.nibView(self.reuseIdentifier())
     }
@@ -50,32 +55,109 @@ extension UIView {
         return Bundle.main.loadNibNamed(nibName, owner: nil)?.first as! UIView
     }
     
-    class func nib() -> UINib {
-        return UINib(nibName: NSStringFromClass(self), bundle: nil)
-    }
-    
     class func reuseIdentifier() -> String {
-        return NSStringFromClass(self)
+        return self.className
     }
 }
 
 extension UITableViewCell {
-    class func registerNibToTableView(_ tableView: UITableView) {
+    class func registerNibTo(tableView: UITableView) {
         tableView.register(self.nib(), forCellReuseIdentifier: self.reuseIdentifier())
+    }
+    class func registerCellClassTo(tableView: UITableView) {
+        tableView.register(self, forCellReuseIdentifier: self.reuseIdentifier())
     }
 }
 
 extension UITableViewHeaderFooterView {
-    class func registerNibToTableView(_ tableView: UITableView) {
+    class func registerNibTo(tableView: UITableView) {
         tableView.register(self.nib(), forHeaderFooterViewReuseIdentifier: self.reuseIdentifier())
     }
 }
 
 extension UICollectionViewCell {
-    class func registerNibToCollectionView(_ collectionView: UICollectionView) {
+    class func registerNibTo(collectionView: UICollectionView) {
         collectionView.register(self.nib(), forCellWithReuseIdentifier: self.reuseIdentifier())
     }
+    class func registerCellClassTo(collectionView: UICollectionView) {
+        collectionView.register(self, forCellWithReuseIdentifier: self.reuseIdentifier())
+    }
 }
+
+extension UIView {
+    var x: CGFloat {
+        get {
+            return frame.origin.x
+        }
+        set {
+            frame.origin.x = newValue
+        }
+    }
+    
+    var y: CGFloat {
+        get {
+            return frame.origin.y
+        }
+        set {
+            frame.origin.y = newValue
+        }
+    }
+    
+    var origin: CGPoint {
+        get {
+            return frame.origin
+        }
+        set {
+            frame.origin = newValue
+        }
+    }
+    
+    var width: CGFloat {
+        get {
+            return frame.size.width
+        }
+        set {
+            frame.size.width = newValue
+        }
+    }
+    
+    var height: CGFloat {
+        get {
+            return frame.size.height
+        }
+        set {
+            frame.size.height = newValue
+        }
+    }
+    
+    var size: CGSize {
+        get {
+            return frame.size
+        }
+        set {
+            frame.size = newValue
+        }
+    }
+    
+    var centerX: CGFloat {
+        get {
+            return center.x
+        }
+        set {
+            center.x = newValue
+        }
+    }
+    
+    var centerY: CGFloat {
+        get {
+            return center.y
+        }
+        set {
+            center.y = newValue
+        }
+    }
+}
+
 
 
 

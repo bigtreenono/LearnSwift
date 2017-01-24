@@ -18,3 +18,7 @@ struct Emojis {
     static let Happy = "😄"
     static let Sad = "😢"
 }
+
+struct AssociatedKeys {
+    static var DescriptiveName = "DescriptiveName"
+}

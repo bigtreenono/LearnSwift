@@ -45,12 +45,27 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.nib` struct is generated, and contains static references to 0 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 2 nibs.
   struct nib {
+    /// Nib `TableViewCell22`.
+    static let tableViewCell22 = _R.nib._TableViewCell22()
+    /// Nib `TableViewCellHaha`.
+    static let tableViewCellHaha = _R.nib._TableViewCellHaha()
+    
+    /// `UINib(name: "TableViewCell22", in: bundle)`
+    static func tableViewCell22(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.tableViewCell22)
+    }
+    
+    /// `UINib(name: "TableViewCellHaha", in: bundle)`
+    static func tableViewCellHaha(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.tableViewCellHaha)
+    }
+    
     fileprivate init() {}
   }
   
-  /// This `R.reuseIdentifier` struct is generated, and contains static references to 8 reuse identifiers.
+  /// This `R.reuseIdentifier` struct is generated, and contains static references to 9 reuse identifiers.
   struct reuseIdentifier {
     /// Reuse identifier `AcknowledgementCell`.
     static let acknowledgementCell: Rswift.ReuseIdentifier<AcknowledgementCell> = Rswift.ReuseIdentifier(identifier: "AcknowledgementCell")
@@ -68,6 +83,8 @@ struct R: Rswift.Validatable {
     static let deleteButton: Rswift.ReuseIdentifier<TableViewActionCell> = Rswift.ReuseIdentifier(identifier: "deleteButton")
     /// Reuse identifier `duplicateButton`.
     static let duplicateButton: Rswift.ReuseIdentifier<TableViewActionCell> = Rswift.ReuseIdentifier(identifier: "duplicateButton")
+    /// Reuse identifier `tableViewCellHaha`.
+    static let tableViewCellHaha: Rswift.ReuseIdentifier<TableViewCellHaha> = Rswift.ReuseIdentifier(identifier: "tableViewCellHaha")
     
     fileprivate init() {}
   }
@@ -115,6 +132,31 @@ struct R: Rswift.Validatable {
 
 struct _R {
   struct nib {
+    struct _TableViewCell22: Rswift.NibResourceType {
+      let bundle = R.hostingBundle
+      let name = "TableViewCell22"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> TableViewCell22? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? TableViewCell22
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct _TableViewCellHaha: Rswift.NibResourceType, Rswift.ReuseIdentifierType {
+      typealias ReusableType = TableViewCellHaha
+      
+      let bundle = R.hostingBundle
+      let identifier = "tableViewCellHaha"
+      let name = "TableViewCellHaha"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> TableViewCellHaha? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? TableViewCellHaha
+      }
+      
+      fileprivate init() {}
+    }
+    
     fileprivate init() {}
   }
   

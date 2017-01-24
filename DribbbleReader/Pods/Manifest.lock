@@ -5,12 +5,18 @@ PODS:
     - R.swift.Library (~> 3.0.2)
   - R.swift.Library (3.0.2)
   - SnapKit (3.0.2)
+  - SwifterSwift (1.4)
+  - XCGLogger/Core (4.0.0)
+  - XCGLogger/UserInfoHelpers (4.0.0):
+    - XCGLogger/Core
 
 DEPENDENCIES:
   - Alamofire
   - BFKit-Swift
   - R.swift
   - SnapKit
+  - SwifterSwift
+  - XCGLogger/UserInfoHelpers
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
@@ -18,7 +24,9 @@ SPEC CHECKSUMS:
   R.swift: 207a372a2b5977caef440c696a368009460641d1
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SwifterSwift: af5d959217ea9ea265ecf6a8e29142733a809268
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
 
-PODFILE CHECKSUM: d42a9a95bacae2bbaea228d2a400b4e7072d1b4a
+PODFILE CHECKSUM: 9699285120196f22ad4d0608e3c28ee93d7fcb83
 
 COCOAPODS: 1.2.0.beta.1

@@ -7,15 +7,49 @@
 //
 
 import UIKit
+import XCGLogger
+
+let log: XCGLogger? = {
+    #if DEBUG
+        let log = XCGLogger.default
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm:ss.SSS"
+        dateFormatter.locale = Locale.current
+        log.dateFormatter = dateFormatter
+
+        if let consoleDestination: ConsoleDestination = log.destination(withIdentifier: XCGLogger.Constants.baseConsoleDestinationIdentifier) as? ConsoleDestination {
+            let xcodeColorsLogFormatter: XcodeColorsLogFormatter = XcodeColorsLogFormatter()
+            xcodeColorsLogFormatter.colorize(level: .verbose, with: .lightGrey)
+            xcodeColorsLogFormatter.colorize(level: .debug, with: .cyan)
+            xcodeColorsLogFormatter.colorize(level: .info, with: .purple)
+            xcodeColorsLogFormatter.colorize(level: .warning, with: .orange)
+            xcodeColorsLogFormatter.colorize(level: .error, with: .red)
+            xcodeColorsLogFormatter.colorize(level: .severe, with: .white, on: .red)
+            consoleDestination.formatters = [xcodeColorsLogFormatter]
+        }
+
+        log.setup(level: .verbose, showThreadName: true, showLevel: false, showFileNames: true, showLineNumbers: true)
+
+        return log
+    #else
+        return nil
+    #endif
+}()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        do {
+            try R.validate()
+        } catch {
+            log?.debug(error)
+        }
+                
         return true
     }
 

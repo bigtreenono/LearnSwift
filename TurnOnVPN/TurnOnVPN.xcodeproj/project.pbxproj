@@ -60,6 +60,10 @@
 		1F69260B1DF1551C000B2360 /* TableViewCellTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69260A1DF1551C000B2360 /* TableViewCellTitle.swift */; };
 		1F6926121DF1909E000B2360 /* VPNListController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6926111DF1909E000B2360 /* VPNListController+TableView.swift */; };
 		1F75D5161DF42433004FA6EC /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75D5151DF42433004FA6EC /* R.generated.swift */; };
+		1FD7C4E01E1CD00400DCD214 /* TableViewCell22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7C4DE1E1CD00400DCD214 /* TableViewCell22.swift */; };
+		1FD7C4E11E1CD00400DCD214 /* TableViewCell22.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7C4DF1E1CD00400DCD214 /* TableViewCell22.xib */; };
+		1FD7C4E41E1CD0E200DCD214 /* TableViewCellHaha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7C4E21E1CD0E200DCD214 /* TableViewCellHaha.swift */; };
+		1FD7C4E51E1CD0E200DCD214 /* TableViewCellHaha.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7C4E31E1CD0E200DCD214 /* TableViewCellHaha.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +147,10 @@
 		1F69260A1DF1551C000B2360 /* TableViewCellTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellTitle.swift; sourceTree = "<group>"; };
 		1F6926111DF1909E000B2360 /* VPNListController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VPNListController+TableView.swift"; sourceTree = "<group>"; };
 		1F75D5151DF42433004FA6EC /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		1FD7C4DE1E1CD00400DCD214 /* TableViewCell22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell22.swift; sourceTree = "<group>"; };
+		1FD7C4DF1E1CD00400DCD214 /* TableViewCell22.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell22.xib; sourceTree = "<group>"; };
+		1FD7C4E21E1CD0E200DCD214 /* TableViewCellHaha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellHaha.swift; sourceTree = "<group>"; };
+		1FD7C4E31E1CD0E200DCD214 /* TableViewCellHaha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellHaha.xib; sourceTree = "<group>"; };
 		3E57ED4073C38E2AB28B3DD2 /* Pods-TurnOnVPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOnVPN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurnOnVPN/Pods-TurnOnVPN.debug.xcconfig"; sourceTree = "<group>"; };
 		90EC2BCAB13300BC8D05FC93 /* Pods_TurnOnVPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnOnVPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93A4895D3789E5CFE32144C /* Pods-TurnOnVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnOnVPN.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurnOnVPN/Pods-TurnOnVPN.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,6 +209,10 @@
 				1F6925F91DF12236000B2360 /* Theme */,
 				1F21F03F1DEEF1A300DBF099 /* AppDelegate.swift */,
 				1F09CC0B1E09088000AF933E /* About.swift */,
+				1FD7C4DE1E1CD00400DCD214 /* TableViewCell22.swift */,
+				1FD7C4DF1E1CD00400DCD214 /* TableViewCell22.xib */,
+				1FD7C4E21E1CD0E200DCD214 /* TableViewCellHaha.swift */,
+				1FD7C4E31E1CD0E200DCD214 /* TableViewCellHaha.xib */,
 				1F09CC0D1E0914E700AF933E /* Acknowledgements.swift */,
 				1F09CC111E0A4D8E00AF933E /* AcknowledgementCell.swift */,
 				1F75D5151DF42433004FA6EC /* R.generated.swift */,
@@ -393,7 +405,9 @@
 				1F21F04A1DEEF1A300DBF099 /* LaunchScreen.storyboard in Resources */,
 				1F21F0471DEEF1A300DBF099 /* Assets.xcassets in Resources */,
 				1F21F0451DEEF1A300DBF099 /* Main.storyboard in Resources */,
+				1FD7C4E11E1CD00400DCD214 /* TableViewCell22.xib in Resources */,
 				1F09CC101E0915D300AF933E /* Acknowledgements.plist in Resources */,
+				1FD7C4E51E1CD0E200DCD214 /* TableViewCellHaha.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD7C4E01E1CD00400DCD214 /* TableViewCell22.swift in Sources */,
 				1F09CC181E0A67FB00AF933E /* VPNListController+OnDemand.swift in Sources */,
 				1F09CC0E1E0914E700AF933E /* Acknowledgements.swift in Sources */,
 				1F6925FF1DF12395000B2360 /* DarkTheme.swift in Sources */,
@@ -496,6 +511,7 @@
 				1F49F8B91E056EEA00F6E313 /* NormalTableViewCell.swift in Sources */,
 				1F09CC141E0A579F00AF933E /* TableViewActionCell.swift in Sources */,
 				1F09CC161E0A590200AF933E /* VPNEditor.swift in Sources */,
+				1FD7C4E41E1CD0E200DCD214 /* TableViewCellHaha.swift in Sources */,
 				1F49F8B11E05387600F6E313 /* VPNOn.xcdatamodeld in Sources */,
 				1F6926071DF13826000B2360 /* HelloKittyTheme.swift in Sources */,
 				1F49F8B71E056C8700F6E313 /* TableViewCellDeclosureIndicator.swift in Sources */,

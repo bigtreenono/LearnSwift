@@ -2,10 +2,55 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'DribbbleReader' do
-    
+
+# https://github.com/mac-cain13/R.swift
 pod 'R.swift'
+
 pod 'BFKit-Swift'
-pod 'Alamofire'
 pod 'SnapKit'
+
+# https://github.com/Alamofire/Alamofire
+pod 'Alamofire'
+
+# https://github.com/DaveWoodCom/XCGLogger
+pod 'XCGLogger/UserInfoHelpers'
+
+# https://github.com/omaralbeik/SwifterSwift
+pod 'SwifterSwift'
+
+# https://github.com/radex/SwiftyUserDefaults
+pod 'SwiftyUserDefaults'
+
+
+=begin
+https://github.com/SwiftyJSON/SwiftyJSON
+https://github.com/lkzhao/Hero    Elegant transition library for iOS, written in Swift
+https://github.com/nickoneill/PermissionScope
+https://github.com/Moya/Moya
+https://github.com/nvzqz/FileKit
+https://github.com/onevcat/Kingfisher  A lightweight, pure-Swift library for downloading and caching images from the web.
+
+https://github.com/dennisweissmann/DeviceKit    DeviceKit is a value-type replacement of UIDevice
+
+https://github.com/danielgindi/Charts   Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart
+
+https://github.com/nvzqz/RandomKit    Random data generation in Swift
+
+https://github.com/ReactiveX/RxSwift
+
+https://github.com/krzyzanowskim/CryptoSwift
+
+https://github.com/dani-gavrilov/GDPerformanceView-Swift
+
+https://github.com/naoty/Timepiece    Intuitive date handling in Swift
+
+https://github.com/kishikawakatsumi/KeychainAccess
+
+https://github.com/mxcl/PromiseKit
+
+https://github.com/zalando/SwiftMonkey
+=end
+=cut
+
 
 end

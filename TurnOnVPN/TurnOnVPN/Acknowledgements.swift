@@ -17,6 +17,8 @@ class Acknowledgements: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.register(R.nib.tableViewCellHaha)
+        
         tableView.backgroundView = ControllerBackgroundView()
         tableView.estimatedRowHeight = 44
         tableView.rowHeight = UITableViewAutomaticDimension

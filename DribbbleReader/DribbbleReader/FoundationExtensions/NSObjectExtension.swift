@@ -9,6 +9,14 @@
 import Foundation
 
 extension NSObject {
+    var className: String {
+        return String(describing: type(of: self))
+    }
+    
+    class var className: String {
+        return String(describing: self)
+    }
+
     func associateObject(_ key: UnsafeRawPointer!, _ value: Any!) {
         objc_setAssociatedObject(self, key, value, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
     }
