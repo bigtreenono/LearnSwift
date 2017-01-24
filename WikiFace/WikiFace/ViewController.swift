@@ -13,9 +13,12 @@ class ViewController: UIViewController {
     
     var imageView: UIImageView!
 
+    class let test: [Any] = ["a" as NSString, 0 as NSNumber]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
         let elonMuskButton = UIButton()
         elonMuskButton.backgroundColor = .lightGray
         elonMuskButton.setTitle("Elon Musk", for: .normal)
